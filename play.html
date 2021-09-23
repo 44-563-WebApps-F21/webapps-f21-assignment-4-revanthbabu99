@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <link rel="stylesheet" href="wilde.css" />
         <title>Lab 04</title>
 </head>
 <body>
@@ -16,41 +17,41 @@
     <p>
  <h3>MORANZONE</h3>
 
- <p id="speech"> What of thy murdered father?</p>
+ <p class="speech"> What of thy murdered father?</p>
 
 <h3>GUIDO</h3>
 
-<p id="speech">   Dost thou think
+<p class="speech">   Dost thou think
    My father would be glad to see me coming,
    This old man’s blood still hot upon mine hands?</p>
 
 <h3>MORANZONE</h3>
 
-  <p id="speech"> Ay! he would laugh for joy.</p>
+  <p class="speech"> Ay! he would laugh for joy.</p>
 
   <h3>GUIDO</h3>
 
-  <p id="speech"> I do not think so,
+  <p class="speech"> I do not think so,
    There is better knowledge in the other world;
    Vengeance is God’s, let God himself revenge.</p>
 
    <h3>MORANZONE</h3>
 
-   <p id="speech">Thou art God’s minister of vengeance.</p>
+   <p class="speech">Thou art God’s minister of vengeance.</p>
 
    <h3>GUIDO</h3>
 
-   <p id="speech"> No!
+   <p class="speech"> No!
    God hath no minister but his own hand.
    I will not kill this man.</p>
 
    <h3>MORANZONE</h3>
-   <p id="speech"> Why are you here,
-   If not to kill him, then?</p>
+   <p class="stage-direction"> [Why are you here, If not to kill him, then?]</p>
+  
 
-   <h3>GUIDO</h3>
+   <h3>GUDIO</h3>
 
-   <p id="speech">  Lord Moranzone,
+   <p class="speech">  Lord Moranzone,
    I purpose to ascend to the Duke’s chamber,
    And as he lies asleep lay on his breast
    The dagger and this writing; when he awakes
@@ -59,6 +60,35 @@
    Which I can take.4
 
     </p>
+    <table>
+      <tr>
+          <th>Character</th>
+          <th>Actor</th>
+          <th>Offer</th>
+      </tr>
+      <tr>
+          <td>MORANZONE</td>
+          <td>Leonardo Di Caprio</td>
+          <td>$2.5 M</td>
+      </tr>
+      <tr>
+          <td>GUIDO</td>
+          <td>Tom Hanks</td>
+          <td>$2.5 M</td>
+      </tr>
+      table,td,th
+{ 
+    border: solid 1px ;
+    text-align: center;
+    width: 30%;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+}
+
+tr:nth-child(even) {
+    background-color:#ccc;
+  }
 </body>
 
 </html>
