@@ -41,3 +41,17 @@ table,td,th
 tr:nth-child(even) {
     background-color:#ccc;
   }
+
+  h3.MORANZONE:hover{
+    color: royalblue;
+    text-shadow:5px 7px 9px green;
+    border: yellowgreen;
+    filter: blur(5px);
+}
+
+h3.GUIDO:hover{
+    color: red;
+    text-shadow:2px 3px 5px powderblue;
+    border: magenta;
+    filter: blur(3px);
+}
