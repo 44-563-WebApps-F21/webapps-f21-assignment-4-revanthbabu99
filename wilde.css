@@ -55,3 +55,27 @@ h3.GUIDO:hover{
     border: magenta;
     filter: blur(3px);
 }
+
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 175px;
+    right: 20px;
+    height: 415px;
+    width: 350px;
+}
+ul.navbar-vertical a:hover{
+    background-color: #fff;color:yellowgreen;
+  }
+
+.ico:before{
+    content: '';
+    background:url('hanuman.jpg');
+    background-size:cover;
+        position:absolute;
+    width:20px;
+    height:20px;
+    margin:20px;
+}
